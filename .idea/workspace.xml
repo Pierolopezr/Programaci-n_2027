@@ -1,19 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a6fa349-1955-4c40-ad6f-aabd99f169b5" name="Changes" comment="" />
+    <list default="true" id="3a6fa349-1955-4c40-ad6f-aabd99f169b5" name="Changes" comment="TAREA 3 FINALIZADA">
+      <change afterPath="$PROJECT_DIR$/boletin_4/tarea4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pierolopezr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pierolopezr/Programaci-n_2027.git&quot;,
+    &quot;accountId&quot;: &quot;aa3399e5-11d9-4762-95cf-5a7255616bb3&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000000002" />
+      <entry key="MS500" value="1.0006605704254037" />
+      <entry key="S2" value="1.1608590584695921" />
+      <entry key="S5" value="1.530949067448565" />
+      <entry key="S10" value="1.955291146508828" />
+      <entry key="S30" value="4.123407805010656" />
+      <entry key="S60" value="9.606049712475706" />
+      <entry key="M2" value="20.257127514023786" />
+      <entry key="M5" value="42.10771123035366" />
+      <entry key="M10" value="67.191862755424" />
+      <entry key="M15" value="87.68023177421523" />
+      <entry key="M30" value="145.16754423846925" />
+      <entry key="H1" value="255.18931247958176" />
+      <entry key="H2" value="403.3851213273968" />
+      <entry key="H4" value="536.9931277205712" />
+      <entry key="D1" value="702.7048896306227" />
+      <entry key="W1" value="737.9059375626517" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.9979591103134812E-243" />
+      <entry key="S2" value="2.114202825784905E-61" />
+      <entry key="S5" value="5.3710433744555935E-25" />
+      <entry key="S10" value="7.328740256316639E-13" />
+      <entry key="S30" value="9.016005318403246E-5" />
+      <entry key="S60" value="0.00952792321291114" />
+      <entry key="M2" value="0.10597155334573917" />
+      <entry key="M5" value="0.7513498303069334" />
+      <entry key="M10" value="2.1329403176981008" />
+      <entry key="M15" value="3.4290023626429793" />
+      <entry key="M30" value="7.019684766803223" />
+      <entry key="H1" value="14.038297065565278" />
+      <entry key="H2" value="24.289969321835116" />
+      <entry key="H4" value="34.098523062001014" />
+      <entry key="D1" value="46.77292505442305" />
+      <entry key="W1" value="49.52225560967706" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9330329915368076" />
+      <entry key="MS500" value="0.9868859894323045" />
+      <entry key="S2" value="1.1569535685065409" />
+      <entry key="S5" value="1.5289616418698033" />
+      <entry key="S10" value="1.9540397367478162" />
+      <entry key="S30" value="4.122649098583352" />
+      <entry key="S60" value="9.613515889068106" />
+      <entry key="M2" value="20.355166670235835" />
+      <entry key="M5" value="42.84042956778501" />
+      <entry key="M10" value="69.30142098390318" />
+      <entry key="M15" value="91.08552119336535" />
+      <entry key="M30" value="152.16439140906505" />
+      <entry key="H1" value="269.2058190645635" />
+      <entry key="H2" value="427.65711818773013" />
+      <entry key="H4" value="571.0794393792293" />
+      <entry key="D1" value="749.4751078198382" />
+      <entry key="W1" value="787.4277860206511" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3JUifjf0Dg9PDHqXRykrTvnLgPm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,12 +106,82 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.tarea3.executor": "Run",
+    "Python.tarea4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Piero/PycharmProjects/Programacion_2026_2027",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Piero\PycharmProjects\Programacion_2026_2027\boletin_3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.tarea4">
+    <configuration name="tarea3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programacion_2026_2027" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boletin_3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boletin_3/tarea3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tarea4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programacion_2026_2027" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boletin_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boletin_4/tarea4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tarea4" />
+        <item itemvalue="Python.tarea3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,9 +197,42 @@
       <option name="presentableId" value="Default" />
       <updated>1789722152269</updated>
     </task>
+    <task id="LOCAL-00001" summary="TAREA 2 FINALIZADA">
+      <option name="closed" value="true" />
+      <created>1789722229152</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1789722229152</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TAREA 3 FINALIZADA">
+      <option name="closed" value="true" />
+      <created>1790164959659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1790164959659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TAREA 2 FINALIZADA" />
+    <MESSAGE value="TAREA 3 FINALIZADA" />
+    <option name="LAST_COMMIT_MESSAGE" value="TAREA 3 FINALIZADA" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
