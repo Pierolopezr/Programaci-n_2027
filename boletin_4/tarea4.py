@@ -1,7 +1,29 @@
 # BOLETIN 4 - CONDICIONALES
+from pip._internal import self_outdated_check
 
 print("-----------------------")
 print("---------EJERCICIO 1--------------")
+# Un almacén clasifica os seus produtos segundo a seguinte táboa de vendas anuais:
+# Vendas anuais     Artigo de consumo
+# < = 100 produtos			baixo
+# >100 e < = 500			medio
+# > 500 e < = 1000			alto
+# > 1000 				primeira necesidade
+# Coñecido o nome do artigo e as vendas anuais, que se introducen por teclado, indicar de que tipo é mostrandoo por pantalla
+
+artigoConsumo = input("Introduce el nome o artigo de consumo: ")
+vendasAnuais = int(input("Introduce el número de ventas anuales de dicho artigo: "))
+
+if 0 <= vendasAnuais <= 100:
+    print(f"El artigo {artigoConsumo} es un tipo de artigo de cosumo baixo.")
+elif 100 < vendasAnuais <= 500:
+    print(f"El artifo {artigoConsumo} es un tipo de artigo de cosumo medio.")
+elif 500 < vendasAnuais <= 1000:
+    print(f"El artigo {artigoConsumo} es un tipo de artigo de cosumo alto.")
+elif 1000 < vendasAnuais:
+    print(f"El artigo {artigoConsumo} es un tipo de artigo de cosumo de primera necesidade.")
+else:
+    print("Error")
 
 print("-----------------------")
 
@@ -14,7 +36,7 @@ print("---------EJERCICIO 2--------------")
 # 2…. Triangulo
 # 3…. Círculo
 
-valor = int(input("Introduce qué opción deseas para calcular su área: "))
+valor = int(input("Introduce qué opción deseas para calcular su área: 1. Triangulo - 2. Cuadrado - 3. Ciruclo"))
 
 # switch case de python
 match valor:
@@ -157,4 +179,90 @@ print("-----------------------")
 
 print("-----------------------")
 print("---------EJERCICIO 5--------------")
+# O DNI ten unha parte numérica de i díxitos seguido dunha letra que se obtén a partir do número da seguinte forma:
+# letra = número DNI % 23.
+# Deseña unha aplicación na que, dado un número de DNI, calcule a letra que lle corresponde.
+# Observa que un número de 8 díxitos entra dentro do rango dun tipo int.
+
+dni = input("Bienvenido a la poli, dame tu número de DNI y yo te diré su letra final: ")
+if len(dni) == 8 and dni.isdigit():
+    calcLetra = int(dni) % 23
+
+    match calcLetra:
+        case 0:
+            print(f"La letra es: A")
+            print(f"DNI: {dni}A")
+        case 1:
+            print(f"La letra es: B")
+            print(f"DNI: {dni}B")
+        case 2:
+            print(f"La letra es: C")
+            print(f"DNI: {dni}C")
+        case 3:
+            print(f"La letra es: D")
+            print(f"DNI: {dni}D")
+        case 4:
+            print(f"La letra es: E")
+            print(f"DNI: {dni}E")
+        case 5:
+            print(f"La letra es: F")
+            print(f"DNI: {dni}F")
+        case 6:
+            print(f"La letra es: G")
+            print(f"DNI: {dni}G")
+        case 7:
+            print(f"La letra es: H")
+            print(f"DNI: {dni}H")
+        case 8:
+            print(f"La letra es: I")
+            print(f"DNI: {dni}I")
+        case 9:
+            print(f"La letra es: J")
+            print(f"DNI: {dni}J")
+        case 10:
+            print(f"La letra es: K")
+            print(f"DNI: {dni}K")
+        case 11:
+            print(f"La letra es: L")
+            print(f"DNI: {dni}L")
+        case 12:
+            print(f"La letra es: M")
+            print(f"DNI: {dni}M")
+        case 13:
+            print(f"La letra es: N")
+            print(f"DNI: {dni}N")
+        case 14:
+            print(f"La letra es: O")
+            print(f"DNI: {dni}O")
+        case 15:
+            print(f"La letra es: P")
+            print(f"DNI: {dni}P")
+        case 16:
+            print(f"La letra es: Q")
+            print(f"DNI: {dni}Q")
+        case 17:
+            print(f"La letra es: R")
+            print(f"DNI: {dni}R")
+        case 18:
+            print(f"La letra es: S")
+            print(f"DNI: {dni}S")
+        case 19:
+            print(f"La letra es: T")
+            print(f"DNI: {dni}T")
+        case 20:
+            print(f"La letra es: U")
+            print(f"DNI: {dni}U")
+        case 21:
+            print(f"La letra es: V")
+            print(f"DNI: {dni}V")
+        case 22:
+            print(f"La letra es: W")
+            print(f"DNI: {dni}W")
+        case _:
+            print("Error")
+
+else:
+    print("Error. El DNI debe tener 8 dígitos")
+
+
 print("-----------------------")
