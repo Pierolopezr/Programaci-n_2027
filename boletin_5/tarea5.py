@@ -6,8 +6,10 @@ print("-----------------------")
 print("---------EJERCICIO 1--------------")
 
 # Escribir un ciclo definido para imprimir por pantalla tódolos números entre	10 e 20.
-for numero in range (10, 20):
-    print(numero)
+def ejercicio1():
+    for numero in range (10, 20):
+        print(numero)
+#ejercicio1()
 print("-----------------------")
 
 print("-----------------------")
@@ -33,7 +35,7 @@ def ejercicio2():
         except ValueError:
             print("Introduce una temperatura valida")
 
-ejercicio2() # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
+#ejercicio2() # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
 
 print("-----------------------")
 
@@ -47,7 +49,7 @@ def ejercicio3():
         celsius = (float(num) - 32) * 5 / 9
         print(f"La temperatura {num} ºF es: {celsius:.1f} ºC")
 
-ejercicio3() # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
+#ejercicio3() # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
 
 print("-----------------------")
 
@@ -73,7 +75,7 @@ def ejercicio4():
 
     print(f"Los números son: {fila}")
 
-ejercicio4()  # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
+#ejercicio4()  # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
 print("-----------------------")
 
 print("-----------------------")
@@ -93,7 +95,7 @@ def ejercicio5():
         respuesta = x * ( x + 1) / 2
         print(f"{x} - {int(respuesta)}")
 
-ejercicio5()  # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
+#ejercicio5()  # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
 print("-----------------------")
 
 print("-----------------------")
@@ -111,18 +113,28 @@ def ejercicio6():
         lista_resueltas.append(factorial)
     print(f"El factorial de {lista_no_resueltas} es: {lista_resueltas} respectivamente")
 
-ejercicio6()  # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
+#ejercicio6()  # No es necesario un print porque dentro de la función ya termina con un print. Si hubiera return SÍ.
 print("-----------------------")
 
 print("-----------------------")
 print("---------EJERCICIO 7--------------")
 # Escribir un programa que imprima por pantalla tódalas fichas de dominó, de unha por liña e sen repetir
-
+def ejercicio7():
+    for x in range (0, 7):
+        for y in range (x, 7): # se ejecutará siempre a partir de la variable x
+            print(f"{x}/{y}")
+#ejercicio7()
 print("-----------------------")
 
 print("-----------------------")
 print("---------EJERCICIO 8--------------")
 # Modificar o programa anterior para que poida xerar fichas dun xogo que pode ter números de 0 a n.
+def ejercicio8():
+    n = int(input("Dame un número n para que pueda xerar fichas al estilo dominó: "))
+    for x in range (0, n):
+        for y in range (x, n): # se ejecutará siempre a partir de la variable x
+            print(f"{x}/{y}")
+#ejercicio8()
 print("-----------------------")
 
 print("-----------------------")
@@ -160,7 +172,7 @@ def ejercicio9():
     print(f"El grupo \n{numeros_no_clasificados} es: \n{numeros_clasificados} respectivamente")
 
 
-ejercicio9()
+#ejercicio9()
 print("-----------------------")
 
 print("-----------------------")
@@ -177,7 +189,7 @@ def ejercicio10():
             break
         except ValueError:
             print("Error. Introduce una medida válida.")
-ejercicio10()
+#ejercicio10()
 print("-----------------------")
 
 print("-----------------------")
@@ -198,7 +210,7 @@ def ejercicio11():
         except ValueError:
             print("Error. Introduce un número entero.")
 
-ejercicio11()
+#ejercicio11()
 
 print("-----------------------")
 
@@ -236,7 +248,7 @@ def ejercicio12():
     print(f"Hay {len(trabajadores2)} trabajadores con sueldos menores a 1000 euros, que representan el {porcentaje:.1f}% de un total de {len(total_trabajadores)} trabajadores ")
 
 
-ejercicio12()
+#ejercicio12()
 
 print("-----------------------")
 
@@ -249,11 +261,42 @@ print("---------EJERCICIO 13--------------")
 #  * * *
 # * * * *
 
+def ejercicio13():
+    n = int(input("Introduce un número n para armar un triángulo de base y altura n: "))
+
+    for x in range(1, n+1):
+        for y in range (0, n-x): # si n=4 habrán en la primera habrán 3 espacios
+            print (" ", end ="") # end significa que no hara salto de linea
+        asterisco = x * "* "
+        print(asterisco)
+#ejercicio13()
+
 print("-----------------------")
 
 print("-----------------------")
 print("---------EJERCICIO 14--------------")
 # Codificar o programa que solicite 10 números por consola e calcule a súa suma. Si o usuario introduce en calquera momento o número 999,
-# deixa de solicitar máis números e presenta o valor da súma acadada ata ese momento.
+# deixa de solicitar máis4 números e presenta o valor da súma acadada ata ese momento.
+def ejercicio14():
+    veces = 0
+    suma = 0
+    while veces < 10:
+        numeros = int(input("Dame n números hasta 10 de ellos para poder calcula a suma. Introduce o número 999 para terminar en cualquier momento: "))
+        if numeros == 999:
+            print("Calculando suma...")
+            break
+        suma += numeros
+        veces += 1
+    print(f"La suma es: {suma}")
+ejercicio14()
+
 print("-----------------------")
+
+print("-----------------------")
+
+
+
+
+
+
 

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a6fa349-1955-4c40-ad6f-aabd99f169b5" name="Changes" comment="TAREA 4 - FINALIZADA">
-      <change afterPath="$PROJECT_DIR$/boletin_5/tarea5.py" afterDir="false" />
+    <list default="true" id="3a6fa349-1955-4c40-ad6f-aabd99f169b5" name="Changes" comment="TAREA 5 - EN PROCESO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boletin_5/tarea5.py" beforeDir="false" afterPath="$PROJECT_DIR$/boletin_5/tarea5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,61 +37,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000480795954" />
-      <entry key="MS500" value="1.0343868315426918" />
-      <entry key="S2" value="1.4306238111510516" />
-      <entry key="S5" value="1.7139226111148163" />
-      <entry key="S10" value="1.8575829647056725" />
-      <entry key="S30" value="3.1046085820153904" />
-      <entry key="S60" value="5.867782285205415" />
-      <entry key="M2" value="10.118591797387689" />
-      <entry key="M5" value="22.083433704898148" />
-      <entry key="M10" value="46.048223865222674" />
-      <entry key="M15" value="68.23689278173323" />
-      <entry key="M30" value="121.34959619692974" />
-      <entry key="H1" value="204.40065295903676" />
-      <entry key="H2" value="358.6713232254342" />
-      <entry key="H4" value="650.634898242868" />
-      <entry key="D1" value="1504.1227066866852" />
-      <entry key="W1" value="1801.1893273975727" />
+      <entry key="MS100" value="1.0021079573691203" />
+      <entry key="MS500" value="1.3305436297696296" />
+      <entry key="S2" value="2.180612388428492" />
+      <entry key="S5" value="2.716753287166302" />
+      <entry key="S10" value="3.257084481664507" />
+      <entry key="S30" value="4.174281246043353" />
+      <entry key="S60" value="4.797467222173178" />
+      <entry key="M2" value="7.186477433330436" />
+      <entry key="M5" value="24.984803138798604" />
+      <entry key="M10" value="55.240740090878134" />
+      <entry key="M15" value="77.12990441347488" />
+      <entry key="M30" value="123.58544301219273" />
+      <entry key="H1" value="204.210127719087" />
+      <entry key="H2" value="365.01694927010476" />
+      <entry key="H4" value="672.9450449178038" />
+      <entry key="D1" value="1748.2331205533244" />
+      <entry key="W1" value="2178.8178167537235" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.515203807186403E-125" />
-      <entry key="S5" value="1.180834397365539E-50" />
-      <entry key="S10" value="1.0881718025717759E-25" />
-      <entry key="S30" value="5.585379741406495E-9" />
-      <entry key="S60" value="1.119049628704078E-4" />
-      <entry key="M2" value="0.019107616957677438" />
-      <entry key="M5" value="0.510443939926595" />
-      <entry key="M10" value="1.9196090896868792" />
-      <entry key="M15" value="3.4031323511742584" />
-      <entry key="M30" value="7.59440652576609" />
-      <entry key="H1" value="14.81683451674106" />
-      <entry key="H2" value="27.400003564853204" />
-      <entry key="H4" value="48.92428663443933" />
-      <entry key="D1" value="109.14522922973772" />
-      <entry key="W1" value="130.00804478764587" />
+      <entry key="MS100" value="3.813748749605894E-11" />
+      <entry key="MS500" value="0.008703994594277295" />
+      <entry key="S2" value="0.4475966350499576" />
+      <entry key="S5" value="1.0823960900063594" />
+      <entry key="S10" value="1.467506524649539" />
+      <entry key="S30" value="1.8028577106390307" />
+      <entry key="S60" value="1.8987608414205888" />
+      <entry key="M2" value="1.9538230346479446" />
+      <entry key="M5" value="2.100832976545341" />
+      <entry key="M10" value="2.3410479866577734" />
+      <entry key="M15" value="2.527237137831719" />
+      <entry key="M30" value="3.3856460164820805" />
+      <entry key="H1" value="7.012638853015315" />
+      <entry key="H2" value="17.490340895423234" />
+      <entry key="H4" value="39.393401343078985" />
+      <entry key="D1" value="115.58838054428243" />
+      <entry key="W1" value="145.98668236055548" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.852634931641305" />
-      <entry key="MS500" value="1.0017417137077926" />
-      <entry key="S2" value="1.4186735421883985" />
-      <entry key="S5" value="1.7080711953074061" />
-      <entry key="S10" value="1.8540720518596019" />
-      <entry key="S30" value="3.0899868375244175" />
-      <entry key="S60" value="5.8429783877515264" />
-      <entry key="M2" value="10.112737392283695" />
-      <entry key="M5" value="22.571737623978237" />
-      <entry key="M10" value="47.94458757410221" />
-      <entry key="M15" value="71.6169613000108" />
-      <entry key="M30" value="128.92292025396014" />
-      <entry key="H1" value="219.19835593093984" />
-      <entry key="H2" value="386.052558461069" />
-      <entry key="H4" value="699.5412554487517" />
-      <entry key="D1" value="1613.2610786443217" />
-      <entry key="W1" value="1931.1962067476718" />
+      <entry key="MS100" value="0.9095134010482114" />
+      <entry key="MS500" value="1.311290786283263" />
+      <entry key="S2" value="2.542520484535222" />
+      <entry key="S5" value="3.7095020646150614" />
+      <entry key="S10" value="4.651365972679189" />
+      <entry key="S30" value="5.938704369341638" />
+      <entry key="S60" value="6.673489043462143" />
+      <entry key="M2" value="9.123301569643385" />
+      <entry key="M5" value="27.06495418424499" />
+      <entry key="M10" value="57.556913050174664" />
+      <entry key="M15" value="79.63147972496763" />
+      <entry key="M30" value="126.94728072858837" />
+      <entry key="H1" value="211.20183747686877" />
+      <entry key="H2" value="382.48808064972775" />
+      <entry key="H4" value="712.3202375661401" />
+      <entry key="D1" value="1863.813583814325" />
+      <entry key="W1" value="2324.803095462313" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -119,7 +119,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -211,7 +212,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>
@@ -255,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790767650094</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TAREA 5 - EN PROCESO">
+      <option name="closed" value="true" />
+      <created>1791455926699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1791455926699</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +275,8 @@
     <MESSAGE value="TAREA 3 FINALIZADA" />
     <MESSAGE value="TAREA 4 - en proceso" />
     <MESSAGE value="TAREA 4 - FINALIZADA" />
-    <option name="LAST_COMMIT_MESSAGE" value="TAREA 4 - FINALIZADA" />
+    <MESSAGE value="TAREA 5 - EN PROCESO" />
+    <option name="LAST_COMMIT_MESSAGE" value="TAREA 5 - EN PROCESO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
