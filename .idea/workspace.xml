@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a6fa349-1955-4c40-ad6f-aabd99f169b5" name="Changes" comment="TAREA 5 - EN PROCESO">
+    <list default="true" id="3a6fa349-1955-4c40-ad6f-aabd99f169b5" name="Changes" comment="TAREA 5 - FINALIZADA">
+      <change afterPath="$PROJECT_DIR$/Anotaciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boletin_7/tarea7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boletin_5/tarea5.py" beforeDir="false" afterPath="$PROJECT_DIR$/boletin_5/tarea5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,61 +38,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0021079573691203" />
-      <entry key="MS500" value="1.3305436297696296" />
-      <entry key="S2" value="2.180612388428492" />
-      <entry key="S5" value="2.716753287166302" />
-      <entry key="S10" value="3.257084481664507" />
-      <entry key="S30" value="4.174281246043353" />
-      <entry key="S60" value="4.797467222173178" />
-      <entry key="M2" value="7.186477433330436" />
-      <entry key="M5" value="24.984803138798604" />
-      <entry key="M10" value="55.240740090878134" />
-      <entry key="M15" value="77.12990441347488" />
-      <entry key="M30" value="123.58544301219273" />
-      <entry key="H1" value="204.210127719087" />
-      <entry key="H2" value="365.01694927010476" />
-      <entry key="H4" value="672.9450449178038" />
-      <entry key="D1" value="1748.2331205533244" />
-      <entry key="W1" value="2178.8178167537235" />
+      <entry key="MS100" value="1.0000636948355415" />
+      <entry key="MS500" value="1.2031464061611976" />
+      <entry key="S2" value="3.142873959028479" />
+      <entry key="S5" value="5.211945598405274" />
+      <entry key="S10" value="6.397799809911777" />
+      <entry key="S30" value="7.995038835274483" />
+      <entry key="S60" value="11.662133601974208" />
+      <entry key="M2" value="20.075499978881936" />
+      <entry key="M5" value="41.77693990789986" />
+      <entry key="M10" value="69.35155715088386" />
+      <entry key="M15" value="94.68699616027129" />
+      <entry key="M30" value="165.42167033534594" />
+      <entry key="H1" value="283.98519217281444" />
+      <entry key="H2" value="479.9858049561239" />
+      <entry key="H4" value="817.9772885155203" />
+      <entry key="D1" value="2059.9173531083234" />
+      <entry key="W1" value="2596.5759750768484" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.813748749605894E-11" />
-      <entry key="MS500" value="0.008703994594277295" />
-      <entry key="S2" value="0.4475966350499576" />
-      <entry key="S5" value="1.0823960900063594" />
-      <entry key="S10" value="1.467506524649539" />
-      <entry key="S30" value="1.8028577106390307" />
-      <entry key="S60" value="1.8987608414205888" />
-      <entry key="M2" value="1.9538230346479446" />
-      <entry key="M5" value="2.100832976545341" />
-      <entry key="M10" value="2.3410479866577734" />
-      <entry key="M15" value="2.527237137831719" />
-      <entry key="M30" value="3.3856460164820805" />
-      <entry key="H1" value="7.012638853015315" />
-      <entry key="H2" value="17.490340895423234" />
-      <entry key="H4" value="39.393401343078985" />
-      <entry key="D1" value="115.58838054428243" />
-      <entry key="W1" value="145.98668236055548" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="2.0891094317436627E-85" />
+      <entry key="S5" value="1.3428757703198593E-34" />
+      <entry key="S10" value="1.1713584808279047E-17" />
+      <entry key="S30" value="2.765671661754635E-6" />
+      <entry key="S60" value="0.002257200773504887" />
+      <entry key="M2" value="0.0752989390657209" />
+      <entry key="M5" value="0.8052502808519325" />
+      <entry key="M10" value="2.065108449266557" />
+      <entry key="M15" value="3.066614954069418" />
+      <entry key="M30" value="5.354250577673401" />
+      <entry key="H1" value="8.889916021584456" />
+      <entry key="H2" value="17.02538665894842" />
+      <entry key="H4" value="36.5937436826809" />
+      <entry key="D1" value="119.60556847867873" />
+      <entry key="W1" value="156.51370547715987" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9095134010482114" />
-      <entry key="MS500" value="1.311290786283263" />
-      <entry key="S2" value="2.542520484535222" />
-      <entry key="S5" value="3.7095020646150614" />
-      <entry key="S10" value="4.651365972679189" />
-      <entry key="S30" value="5.938704369341638" />
-      <entry key="S60" value="6.673489043462143" />
-      <entry key="M2" value="9.123301569643385" />
-      <entry key="M5" value="27.06495418424499" />
-      <entry key="M10" value="57.556913050174664" />
-      <entry key="M15" value="79.63147972496763" />
-      <entry key="M30" value="126.94728072858837" />
-      <entry key="H1" value="211.20183747686877" />
-      <entry key="H2" value="382.48808064972775" />
-      <entry key="H4" value="712.3202375661401" />
-      <entry key="D1" value="1863.813583814325" />
-      <entry key="W1" value="2324.803095462313" />
+      <entry key="MS100" value="0.9526990986712783" />
+      <entry key="MS500" value="1.191904198916418" />
+      <entry key="S2" value="3.136414609561165" />
+      <entry key="S5" value="5.20772586279156" />
+      <entry key="S10" value="6.395206781737297" />
+      <entry key="S30" value="7.9939399727375715" />
+      <entry key="S60" value="11.663294437479822" />
+      <entry key="M2" value="20.145641210707325" />
+      <entry key="M5" value="42.56267329451016" />
+      <entry key="M10" value="71.38977654714313" />
+      <entry key="M15" value="97.72369708439591" />
+      <entry key="M30" value="170.74382554320476" />
+      <entry key="H1" value="292.8457796399838" />
+      <entry key="H2" value="496.98616222788644" />
+      <entry key="H4" value="854.5493918887308" />
+      <entry key="D1" value="2179.5137191435774" />
+      <entry key="W1" value="2753.088025832626" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -103,32 +104,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.tarea3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tarea4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tarea5.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Piero/PycharmProjects/Programacion_2026_2027&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.tarea3.executor": "Run",
+    "Python.tarea4.executor": "Run",
+    "Python.tarea5.executor": "Run",
+    "Python.tarea7.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Piero/PycharmProjects/Programacion_2026_2027",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Piero\PycharmProjects\Programacion_2026_2027\boletin_3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tarea5">
+  <component name="RunManager" selected="Python.tarea7">
     <configuration name="tarea3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Programacion_2026_2027" />
       <option name="ENV_FILES" value="" />
@@ -201,8 +205,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tarea7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programacion_2026_2027" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boletin_7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boletin_7/tarea7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tarea7" />
         <item itemvalue="Python.tarea5" />
         <item itemvalue="Python.tarea4" />
         <item itemvalue="Python.tarea3" />
@@ -264,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791455926699</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TAREA 5 - FINALIZADA">
+      <option name="closed" value="true" />
+      <created>1792053573137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1792053573137</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +313,8 @@
     <MESSAGE value="TAREA 4 - en proceso" />
     <MESSAGE value="TAREA 4 - FINALIZADA" />
     <MESSAGE value="TAREA 5 - EN PROCESO" />
-    <option name="LAST_COMMIT_MESSAGE" value="TAREA 5 - EN PROCESO" />
+    <MESSAGE value="TAREA 5 - FINALIZADA" />
+    <option name="LAST_COMMIT_MESSAGE" value="TAREA 5 - FINALIZADA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
