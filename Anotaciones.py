@@ -16,5 +16,8 @@
 #palabra.count("t")  # Cuenta cuántas veces aparece "t"
 # palabra = palabra.replace("G", "P")  #creo una nueva cadena y la guardo
 # palabra = "P" + palabra[1:]  # creo una nueva cadena mediante concatenación
-
+# texto1 = texto[::2]   # Creo una nueva cadena y recorro la cadena de 2 en 2
+# texto.split(": ", 1) # Indica el split que se parte en dos en el punto ":" donde está en el texto
+    # texto[0] y texto[1] # primera mitad y segunda mitad
 #"Py" in palabra     # Comprueba si contiene "Py"
+# texto.zfill(3) # Rellena los espacios que faltan con 0 -> si tengo 45 -> 045 y así

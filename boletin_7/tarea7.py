@@ -126,6 +126,19 @@ print("---------EJERCICIO 11--------------")
 # b. Imprima os tres últimos caracteres.
 # c. Imprima dita cadea cada dous caracteres. Ex.: recta debería imprimir rca
 # d. Imprima a cadea nun sentido e en sentido inverso. Ex: reflexo imprime reflexooxelfer.
+def ejercicio11():
+    texto = "Perú es clave"
+    textoa = texto[0:2]
+    textob = texto[-3:]
+    textoc = texto[::2] # Cuenta cada dos espacios.
+    textod = texto + texto[::-1]
+
+    print(textoa)
+    print(textob)
+    print(textoc)
+    print(textod)
+
+#ejercicio11()
 print("-----------------------")
 print("-----------------------")
 print("---------EJERCICIO 12--------------")
@@ -135,23 +148,123 @@ print("---------EJERCICIO 12--------------")
 # b. Inserte o caracter entre cada letra da cadea. Ex: ‘separar’ e ‘,’ debería devolver s,e,p,a,r,a,r
 # c. Reemplace tódolos díxitos na cadea polo caracter. Ex: súa clave é: 1540 e ‘X’ debería devotar súa clave é: XXXX
 # d. Inserta o carácter cada 3 díxitos na cadea. Ex. 2552552550 e ‘.’ debería devoltar 255.255.255.0
+def ejercicio12():
+    texto1 = "meu arquivo de texto.txt"
+    textoa = texto1[:texto1.find("t")]
+    textoa = textoa.replace(" ", "/_")
+    print(textoa + texto1[texto1.find("te"):])
+
+    texto2 = "separar"
+    textob = texto2.replace("", ",")[1:]
+    print(textob)
+
+    texto = "Su clave es: 1540"
+    inicio, clave = texto.split(": ", 1) # inicio se queda con la primera mitad y clave con la segunda que es la condicion
+    clave_oculta = ""
+    for caracter in clave:
+        if caracter.isdigit():
+            clave_oculta += "X"
+        else:
+            clave_oculta += caracter
+    textoc = inicio + ": " + clave_oculta
+    print(textoc)
+
+    texto4 = "2552552550"
+    textod = texto4[:3] + "." + texto4[3:6] + "." + texto4[6:9] + "." + texto4[9:]
+    print(textod)
+#ejercicio12()
 print("-----------------------")
 print("-----------------------")
 print("---------EJERCICIO 13--------------")
-# Modificar as funcións anteriores,
-# para que reciban un parámetro que indique a cantidade máxima de reemprazos ou insercións a realizar.
+# Modificar las funciones anteriores para que reciban un parámetro que indique la cantidad máxima de sustituciones o inserciones que pueden realizar
+def ejercicio13(maximo):
+
+
+    texto1 = "meu arquivo de texto.txt"
+    textoa = texto1[:texto1.find("t")]
+    textoa = textoa.replace(" ", "/_", maximo) # sustituyo como "maximo" la cantidad indicada
+    print(textoa + texto1[texto1.find("te"):])
+
+
+    texto2 = "separar"
+    textob = texto2.replace("", ",", maximo + 1)[1:] # colocamos +1 porque hago que empiece con 1: y omite el primer , se ,s,e,p...
+    print(textob)
+
+    texto = "Su clave es: 1540"
+    inicio, clave = texto.split(": ", 1)  # inicio se queda con la primera mitad y clave con la segunda que es la condicion
+    clave_oculta = ""
+    sustituciones = 0
+    for caracter in clave:
+        if caracter.isdigit() and sustituciones < maximo:
+            clave_oculta += "X"
+            sustituciones += 1
+        else:
+            clave_oculta += caracter
+    textoc = inicio + ": " + clave_oculta
+    print(textoc)
+
+    texto4 = "2552552550"
+    textod = ""
+    incersiones = 0
+    for i in range(0, len(texto4),3): # calcula longitud 10 y recorre el for cada 3 veces
+        if i> 0 and incersiones < maximo: # evita poner un punto antes del primer grupo
+            textod +=  "."
+            incersiones += 1
+        textod += texto4[i:i+3] # en cada vuelta cambia de valor.
+    print(textod)
+#ejercicio13(2)
 print("-----------------------")
 print("-----------------------")
 print("---------EJERCICIO 14--------------")
 # Escribir unha función que reciba unha cadea que conten un número enteiro longo e devolte unha cadea co número e as separacións de miles.
 # Por exemplo, se recibe 1234567890, debe devoltar 1.234.567.890
+def ejercicio14():
+    texto = "1234567890"
+    textoa = ""
+
+    for i in range(len(texto), 0, -3):
+
+        # Recojo hasta tres cifras desde la derecha
+        grupo = texto[max(0, i - 3):i]
+
+        # Si todavía no he guardado nada, añado el primer grupo
+        if textoa == "":
+            textoa = grupo
+
+        # Si ya tengo algo guardado, pongo el nuevo grupo delante
+        else:
+            textoa = grupo + "." + textoa
+
+    print(textoa)
+
+    texto2 = "1234567890"
+    texto3 = ""
+
+    veces = (len(texto2)-1) // 3 # Hallo la cantidad de miles que tiene el número. En este caso 3.
+    for i in range(0, veces):
+        texto2 = int(texto2)
+        textoR = int(texto2) % 1000  # Hallo el resto de entre 1000 para que me dé las 3 últimas cifras
+        texto2 = texto2 // 1000 # Con la división entera //, solo me quedo con el número entero. Con esto, hallo el nuevo número para seguir con la operación de resto en el bucle
+        print(textoR)
+        print(texto2)
+
+        texto3 = "." + str(textoR).zfill(3)  + texto3 # Voy sumando cada grupo de tres cifras hasta que se cumpla el bucle
+
+    resultado = str(texto2) + texto3 # El número o números restantes menor a 3 cifras le junto en string al grupo texto3 que ya tengo
+    resultado = resultado.replace(" ", "") # Quito los espacios.
+    print(resultado)
+ejercicio14()
 print("-----------------------")
+
 print("-----------------------")
 print("---------EJERCICIO 15--------------")
 # Escribir unha función que dada unha cadea de caracteres, devolte:
 #i. A primeira letra de cada palabra. Por exemplo, se recibe Universal Serial Bus debe devoltar USB.
 #ii.  Unha cadea coa primeira letra de cada palabra en maiúsculas. Por exemplo, se recibe república arxentina, debe devoltar, República Arxentina.
 #iii. As palabras que comecen coa letra A. Por exemplo, si recibe Antes de abrir, debe devoltar, Antes abrir.
+def ejercicio15():
+    print("hola mundo")
+ejercicio15()
 print("-----------------------")
 print("-----------------------")
 print("---------EJERCICIO 16--------------")
